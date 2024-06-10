@@ -1,0 +1,284 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container>header{
+    background-image: url('../Images/ImagesNuocHoa/AnhShop.jpg');
+    background-size: 100%;    
+    height: 200px;
+    padding-bottom: 15%;
+    background-image: url(Images/Screenshot\ 2024-05-27\ 222350.png);
+}
+.top-right{
+    width:  200px;
+    height: 50px;
+    background-color:rgb(7, 28, 46);
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    font-variant: small-caps;   
+    text-align: center;
+}
+.top-right>a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    line-height: 50px;
+    padding: 5px;
+    font-size: 17px;
+    
+}
+.top-right>a:hover{
+    text-decoration: underline;
+    color: rgb(133, 225, 165) ;
+}
+.company-info{
+    height: 120px;
+    width: 120px;
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+    font-size: larger;
+}
+.company-info>h1{
+    height: 100%;
+    width: 100%;
+    color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 0 0 5px rgb(0, 234, 255);
+    box-shadow: 0 0 50px rgb(40, 5, 241);
+}
+
+.container>article{
+    width: 75%;
+    float: left;    
+    /* height: 500px; */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px grey;
+    margin: 5px;
+}
+/* ***** */
+.col-25{
+    width: 30%;
+    float: left;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding-right: 23px;
+    padding-bottom: 50px;
+}
+.col-25>.prod{
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(215, 185, 185);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.col-25>.prod>.name{
+    font-variant: small-caps;
+    font-size: 20px;
+    color: orangered;
+}
+.col-25>.prod>.image{
+    /* width: 90%;
+    height: 70%; */
+    margin-bottom: 5px; 
+}
+.col-25>.prod:hover{
+    color: blueviolet;
+}
+.col-25>.prod>.price{
+    position: absolute;
+    top: 215px;
+    left: 90px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange; 
+}
+.col-25>.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    
+}
+.col-25>.prod>.new-icons{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+/* ********* */
+.container>aside{
+    min-height: 500px;
+    width: 23%;
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    float: right;
+    margin: 5px 0px 0px 0px ;
+}
+.container>aside>ul>li{
+    padding-bottom:15px; 
+}
+.container>aside>ul>li>a{
+    text-decoration: none;
+    color: rgba(243, 0, 0, 0.897);
+    line-height: 20px;
+    font-size: 20px; 
+}
+.container>footer{
+    color:red;
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: rgb(7, 37, 37);
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.container>footer>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>ul>li{
+    display: inline-block;
+    position: relative;
+}
+
+.container>nav>ul>li>a{
+        
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 13px;
+    line-height: 45px;
+    
+}
+
+ .container>nav>ul{
+    
+    height: 50px;
+    width: 960px;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    line-height: 45px;
+}
+.container>nav>ul>li>a:hover{
+    color: brown;
+
+}
+
+
+.container>nav>ul>li>ul>li>a{
+    display: block;
+    padding-left: 8px;
+    text-decoration: none;
+    /* height: 10px;
+    width: 200px;
+    background-color: rgb(22, 0, 82); */
+    color:  rgb(232, 237, 237);
+    font-size: larger;
+
+}
+
+.container>nav>ul>li>ul>li>a:hover{
+    color: rgb(12, 12, 172);
+}
+
+.container>nav>ul>li>ul{
+    
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px; 
+    list-style: none;
+    border-radius: 10px;
+    width: 200px;   
+    height: 100px;
+    background-color: rgb(48, 48, 49);
+    box-shadow: 0 0 1px gray;
+    left: 10px;
+    text-align: left;
+    z-index: 1;
+}  
+ .container>nav>ul>li:hover>ul{
+    display: block;
+
+}
+
+.container>nav>li>a{
+    padding: 10px;
+    font-size: 20px;
+    color: red;
+}
+
+.container>nav>ul>li>ul>li{
+    /* margin: 10px; */
+}
+
+/* .container>nav>ul>li>ul>li>a{
+    
+    text-decoration: none;
+    height: 20px;
+    width: 180px;
+    
+    color:  rgb(13, 116, 219);
+    font-size: larger;
+    margin-top: 5px;
+} */
+
+/*
+.container>nav>a:hover{
+
+    color: yellow;
+    text-decoration: underline;
+} */
+/* bài 2 */
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+
+.container>article>h1{
+    
+    height: 70px;
+    background-color: rgb(64, 66, 64);
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-right:100px;
+}
+article>h3{
+    text-decoration: none;
+    font-size: larger;
+    margin-left: 40px;
+    margin-right:40px;
+}
+article>h4{
+    text-decoration: none;
+    font-style: unset;
+    margin-left: 100px;
+    margin-right:100px;
+    text-align: center;
+    color: brown;
+}
+article>h5{
+    width: 100%;
+    height: 2%;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin-right:100px;
+}

@@ -1,0 +1,17 @@
+.container>aside{
+    min-height: 500px;
+    width: 23%;
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    float: right;
+    margin: 5px 0px 0px 0px ;
+}
+.container>aside>ul>li{
+    padding-bottom:15px; 
+}
+.container>aside>ul>li>a{
+    text-decoration: none;
+    color: rgba(243, 0, 0, 0.897);
+    line-height: 20px;
+    font-size: 20px; 
+}
